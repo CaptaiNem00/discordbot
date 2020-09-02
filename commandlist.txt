@@ -6,6 +6,7 @@ sadece yaz, ekstra bir şeye ihtiyacı yok
 *ahmet ifşa
 *ahmet ifşa 2
 *ahmet ifşa 3
+*ahmet ifşa 4
 *emin ifşa
 *ortaparmak
 *yarakkafalı
@@ -43,3 +44,4 @@ sadece yaz, ekstra bir şeye ihtiyacı yok
 *torigadi cinderi
 *midone sinane
 *kanal d
+*yarrak
