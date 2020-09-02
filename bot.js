@@ -52,7 +52,12 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'ahmet ifşa 4') {
     msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 4.jpg"]});
   }
- 
+  if (msg.content.toLowerCase() === 'ahmet ifşa 5') {
+    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 5.jpg"]});
+  }
+  if (msg.content.toLowerCase() === 'ahmet ifşa 6') {
+    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 6.jpg"]});
+  }
   if (msg.content.toLowerCase() === 'help') {
     msg.channel.send(commandlist);
   }
