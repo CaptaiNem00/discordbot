@@ -62,7 +62,7 @@ client.on('message', msg => {
     msg.channel.send('buyur',{files:["./images/köz.png"]});
   }
   if (msg.content.toLowerCase() === 'alperenin bebek hali') {
-    msg.channel.send('buyur',{files:["./images/alperen bebek.png"]});
+    msg.channel.send({files:["./images/alperen bebek.png"]});
   }
   if (msg.content.toLowerCase() === 'help') {
     msg.channel.send(commandlist);
