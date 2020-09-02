@@ -653,6 +653,26 @@ const args = message.content.split(" ");
     return message.channel.send(err);
   } 
 }
+if (message.content ==='yarrak')
+{
+const args = message.content.split(" ");
+  try {
+    var connection = await voiceChannel.join();
+    execute(message)
+    voiceChannel.join().then(connection =>
+    {
+       const dispatcher = connection.play("./sounds/yarrak.mp3");
+       dispatcher.setVolumeLogarithmic(5/ 5);
+       dispatcher.on("finish", () => {
+         voiceChannel.leave();
+         });
+     }).catch(err => console.log(err));     
+    }  
+    catch (err) {
+    console.log(err);
+    return message.channel.send(err);
+  } 
+}
 });
 
 
