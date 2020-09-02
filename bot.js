@@ -53,10 +53,10 @@ client.on('message', msg => {
     msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 4.jpg"]});
   }
   if (msg.content.toLowerCase() === 'ahmet ifşa 5') {
-    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 5.jpg"]});
+    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 5.JPG"]});
   }
   if (msg.content.toLowerCase() === 'ahmet ifşa 6') {
-    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 6.jpg"]});
+    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 6.JPG"]});
   }
   if (msg.content.toLowerCase() === 'help') {
     msg.channel.send(commandlist);
