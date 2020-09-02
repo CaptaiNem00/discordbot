@@ -3,6 +3,7 @@ sadece yaz, ekstra bir şeye ihtiyacı yok
 
 *alperen ifşa
 *serhat ifşa
+*serhat ifşa 2
 *ahmet ifşa
 *ahmet ifşa 2
 *ahmet ifşa 3
@@ -16,6 +17,8 @@ sadece yaz, ekstra bir şeye ihtiyacı yok
 *mmm
 *fatma sözer
 *ping
+*alperenin bebek hali
+*köz getir
 -------------
 *yalan
 *anana günaydın
