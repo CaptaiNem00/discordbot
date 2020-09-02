@@ -47,7 +47,7 @@ client.on('message', msg => {
     msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 2.jpg"]});
   }
   if (msg.content.toLowerCase() === 'ahmet ifşa 3') {
-    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 3.jpg"]});
+    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 3.png"]});
   }
   if (msg.content.toLowerCase() === 'help') {
     msg.channel.send(commandlist);
