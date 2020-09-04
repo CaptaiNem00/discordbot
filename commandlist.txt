@@ -10,6 +10,7 @@ sadece yaz, ekstra bir şeye ihtiyacı yok
 *ahmet ifşa 4
 *ahmet ifşa 5
 *ahmet ifşa 6
+*ahmet ifşa 7
 *emin ifşa
 *ortaparmak
 *yarakkafalı

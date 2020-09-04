@@ -58,6 +58,9 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'ahmet ifşa 6') {
     msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 6.JPG"]});
   }
+  if (msg.content.toLowerCase() === 'ahmet ifşa 7') {
+    msg.channel.send('hay allah elimden kaçtı',{files:["./images/ahmet ifşa 7.jpg"]});
+  }
   if (msg.content.toLowerCase() === 'serhat ifşa 2') {
     msg.channel.send('hay allah elimden kaçtı',{files:["./images/serhat ifşa 2.jpeg"]});
   }
