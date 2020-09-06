@@ -734,7 +734,7 @@ const args = message.content.split(" ");
     return message.channel.send(err);
   } 
 }
-if (message.content ==='listerine')
+if (message.content ==='listerine ses')
 {
 const args = message.content.split(" ");
   try {
