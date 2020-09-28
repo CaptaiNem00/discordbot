@@ -799,4 +799,4 @@ const args = message.content.split(" ");
 });
 
 
-client.login(process.env.token);
+client.login("NzQ4NjA2ODcxNDg4NjkyMzE1.X0f4eg.WIPVCesN6I2VrBrRSDmbxweYUE4");
