@@ -10,12 +10,7 @@ var isReady = true;
 client.on('ready', () => {
   console.log(`${client.user.tag} yargı dağıtmaya geldi!`);
 });
-var reqTimer = setTimeout(function wakeUp() {
-  request("https://git.heroku.com/ismetbot.git", function() {
-     console.log("WAKE UP DYNO");
-  });
-  return reqTimer = setTimeout(wakeUp, 1200000);
-}, 1200000);
+
 
 client.on('message', msg => {
   const args = msg.content.split(" ");
