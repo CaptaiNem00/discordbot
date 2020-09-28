@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = require('./ayarlar.json');
+const token = require('./ayarlar.json');
 const ytdl = require('ytdl-core');
 
 var fs = require('fs');
@@ -799,4 +800,4 @@ const args = message.content.split(" ");
 });
 
 
-client.login("NzQ4NjA2ODcxNDg4NjkyMzE1.X0f4eg.WIPVCesN6I2VrBrRSDmbxweYUE4");
+client.login(token);
