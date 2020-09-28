@@ -10,6 +10,12 @@ var isReady = true;
 client.on('ready', () => {
   console.log(`${client.user.tag} yargı dağıtmaya geldi!`);
 });
+var reqTimer = setTimeout(function wakeUp() {
+  request("https://nameless-gorge-19527.herokuapp.com", function() {
+     console.log("WAKE UP DYNO");
+  });
+  return reqTimer = setTimeout(wakeUp, 1200000);
+}, 1200000);
 
 client.on('message', msg => {
   const args = msg.content.split(" ");
@@ -794,6 +800,7 @@ const args = message.content.split(" ");
     return message.channel.send(err);
   } 
 }
+
 });
 
 
