@@ -11,7 +11,7 @@ client.on('ready', () => {
   console.log(`${client.user.tag} yargı dağıtmaya geldi!`);
 });
 var reqTimer = setTimeout(function wakeUp() {
-  request("https://nameless-gorge-19527.herokuapp.com", function() {
+  request("https://git.heroku.com/ismetbot.git", function() {
      console.log("WAKE UP DYNO");
   });
   return reqTimer = setTimeout(wakeUp, 1200000);
