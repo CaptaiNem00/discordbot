@@ -800,4 +800,4 @@ const args = message.content.split(" ");
 });
 
 
-client.login(token);
+client.login(process.env.token);
